@@ -1,2 +1,8 @@
-# HtmlPrint
-Html printing with Bootstrap 5 styling
+.vscode/
+node_modules/
+
+
+/KData
+/DataSupply
+
+web.config
