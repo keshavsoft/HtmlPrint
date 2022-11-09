@@ -1,5 +1,7 @@
 import { SaveClickFunc } from "./ClickFuncs.js";
 import { FromHbs } from "./ShowTable.js";
+import { DocumentValidateFunc } from "./validate.js";
+
 
 let StartFunc = () => {
     let jVarLocalsaveClick = document.getElementById("save");
@@ -7,6 +9,8 @@ let StartFunc = () => {
     jVarLocalsaveClick.addEventListener("click", SaveClickFunc);
 
     document.addEventListener("DOMContentLoaded", FromHbs);
+
+    DocumentValidateFunc()
 };
 
 export { StartFunc }

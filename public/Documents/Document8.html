@@ -79,7 +79,15 @@
                 <tr>
                     <td></td>
                     <td>
-                        <input class="form-control" type="text" id="DocumentId" name="fname" autofocus>
+                        <div class="mb-3 position-relative">
+                            <label class="col-form-label fs-2">Customer Name</label>
+                            <div class="col">
+                                <input type="text" class="form-control" name="DocumentId" id="DocumentId" aria-describedby="emailHelp" required="" autofocus>
+                                <div class="invalid-tooltip">
+                                    Please Enter Document No.
+                                </div>
+                            </div>
+                        </div>
                     </td>
                     <td>
                         <input class="form-control" type="text" id="DocumentDateId" name="f1name">
