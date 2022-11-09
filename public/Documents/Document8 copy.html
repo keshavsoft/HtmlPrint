@@ -52,77 +52,66 @@
     </header>
     <main>
 
-        <form id="FormCreate" onsubmit="return false;">
-            <table class="table table-bordered">
-                <thead>
-                    <tr>
-                        <th scope="col">S.No.</th>
-                        <th scope="col">Document No</th>
-                        <th scope="col">Document Date</th>
-                        <th scope="col">Nature of the Document</th>
-                        <th scope="col">Original/Copy/Xerox</th>
-                        <th scope="col">Page No.</th>
-                        <th scope="col">Save</th>
-                    </tr>
-                </thead>
-                <tbody id="TableBodyId">
+        <div class="row">
+            <div class="col">4) Contain the list of documents scrutinized by :</div>
+        </div>
+        <div class="row">
+            <div class="col"><b>Legal Officer</b></div>
+        </div>
 
-                </tbody>
 
-                <tfoot>
-                    <tr>
-                        <td></td>
-                        <td>
-                            <div class="position-relative">
-                                <input type="text" class="form-control fs-5" name="DocumentNo" id="DocumentId"
-                                    aria-describedby="emailHelp" required="" autofocus="">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">S.No.</th>
+                    <th scope="col">Document No</th>
+                    <th scope="col">Document Date714</th>
+                    <th scope="col">Nature of the Document</th>
+                    <th scope="col">Original/Copy/Xerox</th>
+                    <th scope="col">Page No.</th>
+                    <th scope="col">Save</th>
+                </tr>
+            </thead>
+            <tbody id="TableBodyId">
+
+            </tbody>
+            <tfoot>
+                <form>
+                <tr>
+                    <td></td>
+                    <td>
+                        <div class="mb-3 position-relative">
+                            <div class="col">
+                                <input type="text" class="form-control" name="CustomerName" id="DocumentId" aria-describedby="emailHelp" required="">
                                 <div class="invalid-tooltip">
-                                    Please Enter DocumentId.
+                                    Please Enter Customer Name.
                                 </div>
                             </div>
-                        </td>
-                        <td>
-                            <div class="position-relative">
-                            <input type="text" class="form-control fs-5" name="DocumentDate" id="DocumentDateId"
-                                aria-describedby="emailHelp" required="" autofocus="">
-                            <div class="invalid-tooltip">
-                                Please Enter DocumentId.
-                            </div>
-                        </td>
-                        <td>
-                            <div class="position-relative">
-                            <input type="text" class="form-control fs-5" name="NatureoOftheDocument" id="NatureDocumentId"
-                                aria-describedby="emailHelp" required="" autofocus="">
-                            <div class="invalid-tooltip">
-                                Please Enter DocumentId.
-                            </div>
-                        </td>
-                        <td>
-                            <div class="position-relative">
-                            <input type="text" class="form-control fs-5" name="Original/Copy/Xerox" id="CopyXeroxId"
-                                aria-describedby="emailHelp" required="" autofocus="">
-                            <div class="invalid-tooltip">
-                                Please Enter Data.
-                            </div>
-                        </td>
-                        <td>
-                            <div class="position-relative">
-                            <input type="text" class="form-control fs-5" name="PageNo" id="PageNoId"
-                                aria-describedby="emailHelp" required="" autofocus="">
-                            <div class="invalid-tooltip">
-                                Please Enter PageNo.
-                            </div>
-                        </td>
-                        <td> <button class="btn btn-primary" type="button" id="save">Save</button>
+                        </div>
+                    </td>
+                    <td>
+                        <input class="form-control" type="text" id="DocumentDateId" name="f1name">
+                    </td>
+                    <td>
+                        <input class="form-control" type="text" id="NatureDocumentId" name="Naturename">
+                    </td>
+                    <td>
+                        <input class="form-control" type="text" id="CopyXeroxId" name="Xeroxname">
+                    </td>
+                    <td>
+                        <input class="form-control" type="text" id="PageNoId" name="Pgnoname">
+                    </td>
+                    <td>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end"></div>
+                        <button class="btn btn-primary" type="button" id="save">Save</button>
+                        </div>
+                    </td>
+                </tr>
+            </tfoot>
 
-                        </td>
-                    </tr>
-                </tfoot>
+        </table>
+    </form>
 
-
-
-
-        </form>
     </main>
     <footer>
         <!-- place footer here -->
@@ -131,7 +120,7 @@
     <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
 
     <script>
-
+      
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"

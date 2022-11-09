@@ -9,4 +9,5 @@ let StartFunc = () => {
     document.addEventListener("DOMContentLoaded", FromHbs);
 };
 
+
 export { StartFunc }
